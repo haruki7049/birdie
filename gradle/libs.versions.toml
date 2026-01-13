@@ -2,10 +2,13 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
+kotlin-jvm = "2.2.0"
 junit-jupiter-engine = "5.12.1"
+shadow-plugin = "9.2.2"
 
 [libraries]
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
 
 [plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.2.0" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin-jvm" }
+shadow-plugin = { id = "com.gradleup.shadow", version.ref = "shadow-plugin" }
