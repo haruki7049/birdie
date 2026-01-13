@@ -52,7 +52,8 @@
 
           devShells.default = pkgs.mkShell {
             packages = [
-              # Gradle
+              # Runtime & Build platform
+              pkgs.jdk21
               pkgs.gradle
 
               # LSP
