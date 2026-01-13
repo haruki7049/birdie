@@ -40,7 +40,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "dev.haruki7049.birdie.AppKt"
 }
 
 tasks.named<Test>("test") {
