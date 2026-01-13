@@ -57,7 +57,8 @@
               pkgs.gradle
 
               # LSP
-              pkgs.nil
+              pkgs.nil # Nix
+              pkgs.kotlin-language-server # Kotlin
             ];
           };
         };
