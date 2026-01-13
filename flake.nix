@@ -52,8 +52,8 @@
 
           devShells.default = pkgs.mkShell {
             packages = [
-              # Java for Gradle
-              pkgs.jdk
+              # Gradle
+              pkgs.gradle
 
               # LSP
               pkgs.nil
